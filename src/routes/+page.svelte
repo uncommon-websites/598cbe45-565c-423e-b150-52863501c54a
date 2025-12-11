@@ -14,71 +14,72 @@
 
   // Data
   const heroImages = [
-    "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=600&auto=format&fit=crop", // Climbing
-    "https://images.unsplash.com/photo-1544967082-d9d25d867d66?q=80&w=600&auto=format&fit=crop", // Bench/View
-    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=600&auto=format&fit=crop", // Hiking/Mountain
-    "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=600&auto=format&fit=crop", // Running
-    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?q=80&w=600&auto=format&fit=crop", // Snow
-    "https://images.unsplash.com/photo-1596329606822-790d946d9e29?q=80&w=600&auto=format&fit=crop"  // Park
+    "/generated/image-modern-dental-office-interior-with-comfo-1765495439276-0.webp",
+    "/generated/image-friendly-female-dentist-smiling-warmly-i-1765495443175-1.webp",
+    "/generated/image-young-professional-woman-smiling-confide-1765495446192-2.webp",
+    "/generated/image-sleek-dental-chair-in-contemporary-studi-1765495449227-3.webp",
+    "/generated/image-dental-team-collaborating-in-bright-welc-1765495452244-4.webp",
+    "/generated/image-patient-relaxing-comfortably-in-dental-c-1765495455308-5.webp"
   ];
 
   const benefitCards = [
     {
-      title: "All your data. One place.",
-      desc: "Holo takes into account your lifestyle and habits, your past results, and connects your wearable data.",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop"
+      title: "Modern studios designed for comfort.",
+      desc: "Our studios feature home-like amenities and inviting atmospheres that make you actually look forward to your dental visit.",
+      image: "/generated/image-bright-modern-dental-studio-reception-ar-1765495458613-6.webp"
     },
     {
-      title: "Better control over your performance.",
-      desc: "Start thriving by tracking your daily strain, recovery and sleep.",
-      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800&auto=format&fit=crop"
+      title: "Compassionate, judgment-free care.",
+      desc: "Our team creates a welcoming environment where you feel heard, respected, and comfortable—no matter how long it's been since your last visit.",
+      image: "/generated/image-compassionate-dentist-having-a-caring-co-1765495461832-7.webp"
     },
     {
-      title: "Proactive care.",
-      desc: "Health is not just the absence of illness but the engagement with vitality everyday.",
-      image: "https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=800&auto=format&fit=crop"
+      title: "Latest technology and innovations.",
+      desc: "We invest in cutting-edge dental technology and continued education to provide you with the most advanced, comfortable care available.",
+      image: "/generated/image-advanced-dental-technology-equipment-in--1765495464975-8.webp"
     }
   ];
 
   const steps = [
     {
       step: 1,
-      title: "Chose the plan that fits you better.",
-      desc: "Two options available. Get the Core plan with 110+ biomarkers to access the most advance lab test or choose the Starter plan to test 60+ essential biomarkers.",
+      title: "Choose your service.",
+      desc: "From routine cleanings to Invisalign, teeth whitening, or full mouth reconstruction—we offer comprehensive dental care tailored to your needs.",
       image: "plan"
     },
     {
       step: 2,
-      title: "Schedule your appointment.",
-      desc: "Choose the most convenient lab location for you and follow the instructions before the test.",
+      title: "Book your appointment.",
+      desc: "Select from 23 convenient locations across Austin, Houston, and San Antonio. Easy online scheduling or same-day emergency appointments available.",
       image: "schedule"
     },
     {
       step: 3,
-      title: "Receive first results.",
-      desc: "Within 24 hours directly on your app. When all your results are available, our medical team will start working on your Clinician Notes.",
+      title: "Visit our modern studio.",
+      desc: "Arrive at a welcoming space designed for comfort. Our friendly team greets you in an environment that feels nothing like a traditional dental office.",
       image: "results"
     },
     {
       step: 4,
-      title: "Your Clinician Notes are ready.",
-      desc: "Receive your Clinician Notes and personalized Action Plan within 7 days from your results.",
+      title: "Experience comfortable care.",
+      desc: "Receive expert treatment from our compassionate dentists using the latest technology, all in a relaxed, judgment-free atmosphere.",
       image: "notes"
     },
     {
       step: 5,
-      title: "Start improving.",
-      desc: "Continue your health journey together with Holo AI and your Action Plan. Recheck in 6 months with the Follow-up test.",
+      title: "Maintain your smile.",
+      desc: "Leave with a personalized care plan and easy scheduling for follow-ups. We're here to support your ongoing dental health journey.",
       image: "improve"
     }
   ];
 
   const faqs = [
-    "What does a Holo membership include?",
-    "Is Holo for you?",
-    "What more does Holo offer than my regular doctor or insurance?",
-    "I recently got tested. Should I wait to join Holo?",
-    "Which biomarkers are included in the Holo membership?"
+    "Do you accept dental insurance?",
+    "What is the Swish Smile Membership?",
+    "Do you offer same-day emergency appointments?",
+    "How much does Invisalign cost at Swish?",
+    "What financing options are available?",
+    "How do I choose a location near me?"
   ];
 </script>
 
@@ -88,13 +89,13 @@
   <!-- Hero Section -->
   <section class="pt-32 pb-16 md:pt-40 md:pb-24 px-6 text-center max-w-7xl mx-auto">
     <h1 class="text-4xl md:text-6xl lg:text-7xl font-medium tracking-tight text-[#1A1A1A] mb-6 leading-[1.1]">
-      Your companion<br />for lifelong vitality.
+      Dental care you'll<br />actually look forward to.
     </h1>
     <p class="text-gray-600 text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed font-light">
-      Test 110+ biomarkers every year, track all your health in a single place, and get insights from top doctors. All starting at just €199.
+      Modern studios, compassionate care, and the latest technology. Swish Dental transforms dental visits into comfortable experiences across 23 Texas locations.
     </p>
     <button class="bg-[#1A1A1A] text-white px-8 py-3.5 rounded-sm font-medium hover:bg-black transition-colors">
-      Start testing
+      Book your visit
     </button>
   </section>
 
@@ -103,43 +104,33 @@
     <div class="flex gap-4 px-6 min-w-max">
       {#each heroImages as img, i}
         <div class="relative w-48 h-64 md:w-64 md:h-80 rounded-3xl overflow-hidden flex-shrink-0">
-          <img src={img} alt="Lifestyle" class="w-full h-full object-cover" />
+          <img src={img} alt="Swish Dental Studio" class="w-full h-full object-cover" />
         </div>
       {/each}
     </div>
   </div>
 
-  <!-- App Feature Section -->
-  <section class="py-20 px-6 max-w-7xl mx-auto">
+  <!-- Locations Section -->
+  <section class="py-20 px-6 max-w-7xl mx-auto" id="locations">
     <div class="bg-white rounded-[40px] p-8 md:p-16 flex flex-col md:flex-row items-center gap-12 shadow-sm">
-      <!-- Phone Mockup -->
+      <!-- Location Map Visual -->
       <div class="w-full md:w-1/2 flex justify-center">
-        <div class="relative w-[280px] h-[580px] bg-black rounded-[40px] border-[8px] border-black shadow-2xl overflow-hidden">
-          <div class="absolute top-0 left-0 right-0 h-6 bg-black z-20 flex justify-center">
-            <div class="w-20 h-4 bg-black rounded-b-xl"></div>
-          </div>
-          <div class="w-full h-full bg-white pt-10 px-4 overflow-hidden flex flex-col">
-            <!-- Mock UI -->
-            <div class="flex justify-between items-center mb-6">
-              <div class="w-8 h-8 rounded-full bg-gray-200"></div>
-              <div class="w-8 h-8 rounded-full bg-gray-100"></div>
-            </div>
-            <div class="mb-6">
-              <div class="text-xs text-gray-500 mb-1">30 June</div>
-              <div class="text-2xl font-bold">1</div>
-            </div>
-            <div class="space-y-3">
-              <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-green-400 rounded"></div>
+        <div class="relative w-full h-[400px] bg-gray-50 rounded-3xl overflow-hidden flex items-center justify-center">
+          <div class="text-center space-y-6 p-8">
+            <div class="text-6xl font-bold text-[#1A1A1A]">23</div>
+            <div class="text-xl font-medium text-gray-700">Locations Across Texas</div>
+            <div class="grid grid-cols-3 gap-4 text-sm text-gray-600 max-w-md mx-auto">
+              <div class="text-center">
+                <div class="font-medium text-[#1A1A1A]">16</div>
+                <div class="text-xs">Austin Area</div>
               </div>
-              <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-orange-400 rounded"></div>
+              <div class="text-center">
+                <div class="font-medium text-[#1A1A1A]">5</div>
+                <div class="text-xs">Houston Area</div>
               </div>
-              <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-blue-400 rounded"></div>
+              <div class="text-center">
+                <div class="font-medium text-[#1A1A1A]">2</div>
+                <div class="text-xs">San Antonio</div>
               </div>
             </div>
           </div>
@@ -147,25 +138,17 @@
       </div>
       
       <!-- Content -->
-      <div class="w-full md:w-1/2 space-y-8">
+      <div class="w-full md:w-1/2 space-y-6">
         <h2 class="text-3xl md:text-4xl font-medium leading-tight text-[#1A1A1A]">
-          Your health at a glance.<br />
-          See your daily Strain, Recovery and Sleep goals. Explore your biomarkers, understand what they mean, and access your Personalized Report, including your Action Plan created after your test.
+          Find a studio near you.
         </h2>
-        <div class="flex items-center justify-between pt-4">
-          <button class="flex items-center gap-2 text-[#1A1A1A] font-medium hover:opacity-70 transition-opacity">
-            {@html PlayCircle}
-            Watch video
-          </button>
-          <div class="flex gap-2">
-            <button class="p-2 rounded-full border border-gray-200 hover:bg-gray-50 text-gray-400 hover:text-black transition-colors">
-              {@html ChevronLeft}
-            </button>
-            <button class="p-2 rounded-full border border-gray-200 hover:bg-gray-50 text-gray-400 hover:text-black transition-colors">
-              {@html ChevronRight}
-            </button>
-          </div>
-        </div>
+        <p class="text-gray-600 text-lg font-light leading-relaxed">
+          With locations throughout Austin, Houston, and San Antonio, there's a Swish studio conveniently located near your home or office. Each studio features the same modern design, advanced technology, and compassionate care you deserve.
+        </p>
+        <button class="flex items-center gap-2 text-[#1A1A1A] font-medium hover:opacity-70 transition-opacity">
+          {@html ArrowRight}
+          View all locations
+        </button>
       </div>
     </div>
   </section>
@@ -174,10 +157,10 @@
   <section class="py-16 px-6 max-w-7xl mx-auto">
     <div class="grid md:grid-cols-2 gap-12 items-start">
       <h2 class="text-3xl md:text-5xl font-medium tracking-tight text-[#1A1A1A] leading-tight">
-        You deserve to live fully, longer, and better.
+        Dental anxiety doesn't have to hold you back.
       </h2>
       <p class="text-gray-600 text-lg font-light leading-relaxed">
-        Your health is more than numbers, it's your story, your future. Taking care of it today means giving yourself the chance to enjoy more years with strength, clarity, and vitality. We're here to help you protect what truly matters: a healthier, longer life.
+        We understand that dental visits can be stressful. That's why we've reimagined every aspect of the experience—from our modern studios to our compassionate team. At Swish, you're not just a patient; you're part of a community that believes dental care should be comfortable, accessible, and something you actually look forward to.
       </p>
     </div>
   </section>
@@ -201,13 +184,13 @@
   <!-- Testimonial -->
   <section class="py-24 px-6 max-w-4xl mx-auto text-center">
     <blockquote class="text-2xl md:text-3xl font-medium leading-relaxed text-[#1A1A1A] mb-8">
-      "I've always wanted a tool like Holo. It gives people real power over their health in a way that's simple and intuitive. I love how deeply personalized it is, making it easier than ever to understand your body and make smart choices"
+      "I used to dread going to the dentist, but Swish completely changed that. The studio feels more like a spa than a dental office, and the team made me feel so comfortable. I actually look forward to my appointments now!"
     </blockquote>
     <div class="flex flex-col items-center gap-3">
-      <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=100&auto=format&fit=crop" alt="Doctor" class="w-12 h-12 rounded-full object-cover" />
+      <img src="/generated/image-happy-millennial-woman-with-natural-smil-1765495468009-9.webp" alt="Patient" class="w-12 h-12 rounded-full object-cover" />
       <div class="text-center">
-        <div class="font-medium text-sm">Dra. Cécile Merad</div>
-        <div class="text-gray-500 text-xs">Functional Doctor</div>
+        <div class="font-medium text-sm">Sarah M.</div>
+        <div class="text-gray-500 text-xs">Swish Patient, Austin</div>
       </div>
     </div>
   </section>
@@ -216,25 +199,25 @@
   <section class="py-12 px-6 max-w-7xl mx-auto border-t border-gray-200">
     <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
       <div>
-        <h3 class="text-xl font-medium mb-2">15 minutes lab visit.</h3>
-        <p class="text-gray-500 text-sm font-light">In and out. Take your blood and urine test. One minute with the nurse. Quick and simple.</p>
+        <h3 class="text-xl font-medium mb-2">10,000+ five-star reviews.</h3>
+        <p class="text-gray-500 text-sm font-light">Our patients love us. Join thousands of happy smiles who've discovered comfortable dental care.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">24 hours first results.</h3>
-        <p class="text-gray-500 text-sm font-light">Your lab test data, fast. Complete results in five business days.</p>
+        <h3 class="text-xl font-medium mb-2">Same-day emergency care.</h3>
+        <p class="text-gray-500 text-sm font-light">Dental emergencies happen. We're here when you need us with same-day appointments available.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">Clinician Notes in 1 week.</h3>
-        <p class="text-gray-500 text-sm font-light">From data to a clear Action Plan to guide you along your health path.</p>
+        <h3 class="text-xl font-medium mb-2">23 convenient locations.</h3>
+        <p class="text-gray-500 text-sm font-light">Find a Swish studio near you across Austin, Houston, and San Antonio.</p>
       </div>
     </div>
   </section>
 
   <!-- How it works -->
-  <section class="py-20 px-6 max-w-7xl mx-auto">
+  <section class="py-20 px-6 max-w-7xl mx-auto" id="services">
     <div class="mb-16 max-w-md">
       <h2 class="text-4xl font-medium mb-6">How it works.</h2>
-      <p class="text-gray-600 font-light">With two lab tests a year, daily tracking from your phone and wearables, and guidance from real doctors, Holo helps you understand what's going on inside so you can make smarter, healthier choices.</p>
+      <p class="text-gray-600 font-light">From booking to follow-up care, we've designed every step of your dental experience to be simple, comfortable, and stress-free. Here's what to expect when you visit Swish.</p>
     </div>
 
     <div class="space-y-6">
@@ -314,101 +297,107 @@
   <!-- Dark Cards Section -->
   <section class="py-8 px-6 max-w-7xl mx-auto">
     <div class="grid md:grid-cols-2 gap-6">
-      <!-- Map Card -->
+      <!-- Insurance Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">A five star experience.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We partner exclusively with renowned labs.</h2>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">We work with your insurance.</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">Most major insurance plans accepted.</h2>
+          <p class="text-gray-400 text-sm mt-4 max-w-sm">We'll verify your coverage and help you maximize your benefits. Plus, flexible financing options through Cherry, CareCredit, and HFD.</p>
         </div>
-        <!-- Abstract Map Visual -->
-        <div class="absolute inset-0 flex items-center justify-center opacity-30 mt-20">
+        <!-- Abstract Visual -->
+        <div class="absolute inset-0 flex items-center justify-center opacity-10 mt-20">
            <svg viewBox="0 0 200 100" class="w-full h-full text-gray-500 fill-current">
-              <!-- Simplified dot map representation -->
-              {#each Array(100) as _, i}
-                <circle cx={Math.random() * 200} cy={Math.random() * 100} r={Math.random() * 1.5} />
-              {/each}
+              <circle cx="50" cy="50" r="30" />
+              <circle cx="150" cy="50" r="30" />
+              <circle cx="100" cy="30" r="25" />
            </svg>
         </div>
       </div>
 
-      <!-- Privacy Card -->
+      <!-- Membership Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">Your data is safe with us.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We're built to protect your privacy by default.</h2>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">No insurance? No problem.</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">Join the Swish Smile Membership.</h2>
+          <p class="text-gray-400 text-sm mt-4 max-w-sm">Get exclusive perks and discounts on all services with our proprietary membership program designed for patients without insurance.</p>
         </div>
-        <!-- Blurred Text Visual -->
+        <!-- Abstract Visual -->
         <div class="absolute inset-0 flex items-center justify-center mt-20 overflow-hidden">
-           <div class="text-4xl font-mono text-gray-600 opacity-20 blur-sm select-none break-all p-8">
-             Elizab|%b$9yT Willi|I7m/e Magn|&5a! Trigly|?Pm_Lw
+           <div class="text-8xl font-bold text-gray-600 opacity-10 select-none">
+             SWISH
            </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Pricing Section -->
-  <section class="py-24 px-6 max-w-7xl mx-auto" id="join">
+  <!-- Services Section -->
+  <section class="py-24 px-6 max-w-7xl mx-auto" id="book">
     <div class="text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-medium mb-4">Preventive healthcare for everyone.</h2>
-      <p class="text-gray-500 font-light max-w-2xl mx-auto">Top-tier testing, real-time tracking, and dedicated clinician guidance—made affordable. Because investing in prevention is the most important investing of your life.</p>
+      <h2 class="text-3xl md:text-4xl font-medium mb-4">Comprehensive dental care for everyone.</h2>
+      <p class="text-gray-500 font-light max-w-2xl mx-auto">From preventative care to cosmetic dentistry, we offer a full range of services to keep your smile healthy and beautiful.</p>
     </div>
 
     <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-      <!-- Starter Plan -->
+      <!-- Invisalign -->
       <div class="bg-white rounded-[32px] p-8 flex flex-col">
-        <div class="w-12 h-12 bg-gray-100 rounded-full mb-6"></div>
-        <h3 class="text-2xl font-medium mb-1">Starter</h3>
-        <p class="text-sm text-gray-500 mb-6">Begin your health journey.</p>
+        <div class="w-12 h-12 bg-gray-100 rounded-full mb-6 flex items-center justify-center text-2xl">✨</div>
+        <h3 class="text-2xl font-medium mb-1">Invisalign</h3>
+        <p class="text-sm text-gray-500 mb-6">Straighten your smile discreetly.</p>
         <div class="mb-8">
-          <span class="text-2xl font-medium">€199</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
+          <div class="text-lg font-medium text-[#1A1A1A]">$2,025 OFF</div>
+          <div class="text-[10px] text-gray-500 mt-1 font-medium">Limited time offer. Half the average cost of braces.</div>
         </div>
         <ul class="space-y-4 mb-8 flex-1">
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Two tests a year covering 60+ essential biomarkers.
+            Clear aligners that fit your lifestyle
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Measure your Biological Age and Aging Rate with every test.
+            Comfortable and virtually invisible
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and personalized Action Plan to guide your health.
+            Flexible financing options available
           </li>
         </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
+        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Book consultation</button>
       </div>
 
-      <!-- Core Plan -->
+      <!-- Preventative Care -->
       <div class="bg-white rounded-[32px] p-8 flex flex-col relative overflow-hidden">
-        <div class="absolute top-0 right-0 bg-[#FFF8E1] px-4 py-1 rounded-bl-xl text-xs font-medium text-orange-800">Most Popular</div>
-        <div class="w-12 h-12 bg-orange-100 rounded-full mb-6"></div>
-        <h3 class="text-2xl font-medium mb-1">Core</h3>
-        <p class="text-sm text-gray-500 mb-6">The most advanced longevity membership.</p>
+        <div class="absolute top-0 right-0 bg-[#FFF8E1] px-4 py-1 rounded-bl-xl text-xs font-medium text-orange-800">New Patients</div>
+        <div class="w-12 h-12 bg-orange-100 rounded-full mb-6 flex items-center justify-center text-2xl">🦷</div>
+        <h3 class="text-2xl font-medium mb-1">Preventative Care</h3>
+        <p class="text-sm text-gray-500 mb-6">Keep your smile healthy and bright.</p>
         <div class="mb-8">
-          <span class="text-2xl font-medium">€399</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
+          <div class="text-lg font-medium text-[#1A1A1A]">FREE Whitening</div>
+          <div class="text-[10px] text-gray-500 mt-1 font-medium">For new patients. Includes comprehensive exam and cleaning.</div>
         </div>
         <ul class="space-y-4 mb-8 flex-1">
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Full Core test of 110+ biomarkers plus a Follow-up with 60+ biomarkers to track change.
+            Comprehensive dental exams
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            First test includes an extended Hormonal and Vitamins panel for deeper insights.
+            Professional cleanings and hygiene
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and a personalized Action Plan built on your most complete lab testing profile.
+            Digital X-rays and imaging
           </li>
         </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
+        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Book appointment</button>
       </div>
+    </div>
+
+    <div class="text-center mt-12">
+      <p class="text-sm text-gray-500 mb-4">We also offer cosmetic dentistry, dental implants, veneers, crowns, emergency care, and more.</p>
+      <button class="border border-gray-300 px-6 py-3 rounded-sm text-xs font-medium hover:bg-gray-50 transition-colors">
+        View all services
+      </button>
     </div>
   </section>
 
@@ -425,7 +414,7 @@
     </div>
     <div class="mt-12 text-center">
       <button class="border border-gray-300 px-6 py-3 rounded-sm text-xs font-medium hover:bg-gray-50 transition-colors">
-        View all Frequently Asked Questions
+        View all FAQs
       </button>
     </div>
   </section>
@@ -435,34 +424,30 @@
     <div class="max-w-7xl mx-auto">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-16">
         <div class="flex items-center gap-2">
-           <div class="relative w-5 h-5 flex items-center justify-center">
-              <div class="absolute w-full h-[1.5px] bg-black rotate-45"></div>
-              <div class="absolute w-full h-[1.5px] bg-black -rotate-45"></div>
-              <div class="absolute w-[1.5px] h-full bg-black"></div>
-              <div class="absolute w-full h-[1.5px] bg-black"></div>
-           </div>
-           <span class="font-bold text-lg tracking-widest">HOLO</span>
+           <span class="font-bold text-lg tracking-wide">SWISH DENTAL</span>
         </div>
         
         <nav class="flex flex-wrap gap-6 md:gap-8 text-xs font-medium text-gray-600">
-          <a href="#" class="hover:text-black">Biomarkers</a>
-          <a href="#" class="hover:text-black">FAQ</a>
+          <a href="#services" class="hover:text-black">Services</a>
+          <a href="#locations" class="hover:text-black">Locations</a>
+          <a href="#faq" class="hover:text-black">FAQ</a>
+          <a href="#" class="hover:text-black">Careers</a>
           <a href="#" class="hover:text-black">Blog</a>
-          <a href="#" class="hover:text-black">Terms & Conditions</a>
           <a href="#" class="hover:text-black">Privacy Policy</a>
         </nav>
 
         <div class="flex gap-4 text-gray-800">
-          <a href="#" class="hover:text-black">{@html XIcon}</a>
-          <a href="#" class="hover:text-black">{@html Instagram}</a>
-          <a href="#" class="hover:text-black">{@html LinkedIn}</a>
+          <a href="https://www.instagram.com/swishdental" target="_blank" rel="noopener noreferrer" class="hover:text-black">{@html Instagram}</a>
+          <a href="https://www.facebook.com/swishdental" target="_blank" rel="noopener noreferrer" class="hover:text-black">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
         </div>
       </div>
 
       <div class="text-[10px] text-gray-400 leading-relaxed max-w-5xl">
-        <p class="mb-2">Holo is a technology company, not a laboratory or medical provider. All lab and medical services are provided by independent third parties, who set their own pricing. While Holo facilitates access to certain providers, it does not recommend or refer healthcare providers. Holo does not offer medical advice, lab services, diagnosis, treatment, or medical opinions. All services do not replace medical care or consultations with a licensed provider. If you have questions about lab results, consult a primary care physician or other licensed provider. All information provided by Holo is for general informational purposes only.</p>
-        <p>Holo's membership pricing includes prepaid access to certain third-party lab services. Some home and lab draw fees may apply. Additional payments beyond standard membership pricing. For more details, see our Terms & Conditions.</p>
-        <p class="mt-2">By providing your phone number, you agree to receive text messages from Holo. Message and data rates may apply. Message frequency varies.</p>
+        <p class="mb-2">© 2024 Swish Dental. All rights reserved. Swish Dental operates modern dental studios across Texas, providing comprehensive dental care including preventative dentistry, cosmetic dentistry, Invisalign, dental implants, and emergency dental services. Each location is staffed by licensed dental professionals committed to patient comfort and quality care.</p>
+        <p>All dental services are provided by independent licensed dentists. Treatment plans and pricing may vary by location and individual patient needs. Insurance coverage and financing options available. For specific pricing and service details, please contact your nearest Swish Dental location.</p>
+        <p class="mt-2">By providing your contact information, you agree to receive communications from Swish Dental about appointments, promotions, and dental health information. Message and data rates may apply.</p>
       </div>
     </div>
   </footer>
